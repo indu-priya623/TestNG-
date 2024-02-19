@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T16:35:07 IST" name="TestNG Suite" finished-at="2024-02-15T16:35:25 IST" duration-ms="17708">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T16:35:07 IST" name="admin login with valid data" finished-at="2024-02-15T16:35:08 IST" duration-ms="1107">
+      <class name="testNG.testcases.AdminLoginWithValidData">
+        <test-method signature="ValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.testcases.AdminLoginWithValidData@117159c0]" started-at="2024-02-15T16:35:07 IST" name="ValidLogin" finished-at="2024-02-15T16:35:08 IST" duration-ms="1076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+      </class> <!-- testNG.testcases.AdminLoginWithValidData -->
+    </test> <!-- admin login with valid data -->
+    <test started-at="2024-02-15T16:35:08 IST" name="admin login with invalid data" finished-at="2024-02-15T16:35:12 IST" duration-ms="3375">
+      <class name="testNG.testcases.AdminLoginWithInvalidData">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.testcases.AdminLoginWithInvalidData@4681c175]" started-at="2024-02-15T16:35:08 IST" name="InvalidLogin" finished-at="2024-02-15T16:35:12 IST" duration-ms="3372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[njsdkf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[indup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+      </class> <!-- testNG.testcases.AdminLoginWithInvalidData -->
+    </test> <!-- admin login with invalid data -->
+    <test started-at="2024-02-15T16:35:12 IST" name="Creating new branch" finished-at="2024-02-15T16:35:15 IST" duration-ms="3678">
+      <class name="testNG.testcases.CreatingNewBranch">
+        <test-method is-config="true" signature="adminlogin()[pri:0, instance:testNG.testcases.CreatingNewBranch@7ce026d3]" started-at="2024-02-15T16:35:12 IST" name="adminlogin" finished-at="2024-02-15T16:35:12 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method signature="creatingNewBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG.testcases.CreatingNewBranch@7ce026d3]" started-at="2024-02-15T16:35:12 IST" name="creatingNewBranch" finished-at="2024-02-15T16:35:15 IST" duration-ms="2982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HydBranch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ameerpet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[89076]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Andhra Pradesh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Select]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingNewBranch -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:testNG.testcases.CreatingNewBranch@7ce026d3]" started-at="2024-02-15T16:35:15 IST" name="adminlogout" finished-at="2024-02-15T16:35:15 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- testNG.testcases.CreatingNewBranch -->
+    </test> <!-- Creating new branch -->
+    <test started-at="2024-02-15T16:35:15 IST" name="Deleting existing branch" finished-at="2024-02-15T16:35:22 IST" duration-ms="6489">
+      <class name="testNG.testcases.DeletingExistingBranch">
+        <test-method is-config="true" signature="adminlogin()[pri:0, instance:testNG.testcases.DeletingExistingBranch@7e057f43]" started-at="2024-02-15T16:35:15 IST" name="adminlogin" finished-at="2024-02-15T16:35:16 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method signature="DeletingBranch()[pri:0, instance:testNG.testcases.DeletingExistingBranch@7e057f43]" started-at="2024-02-15T16:35:16 IST" name="DeletingBranch" finished-at="2024-02-15T16:35:21 IST" duration-ms="5299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletingBranch -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:testNG.testcases.DeletingExistingBranch@7e057f43]" started-at="2024-02-15T16:35:21 IST" name="adminlogout" finished-at="2024-02-15T16:35:22 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- testNG.testcases.DeletingExistingBranch -->
+    </test> <!-- Deleting existing branch -->
+    <test started-at="2024-02-15T16:35:22 IST" name="Creating new role" finished-at="2024-02-15T16:35:24 IST" duration-ms="2022">
+      <class name="testNG.testcases.CreatingNewRole">
+        <test-method is-config="true" signature="adminlogin()[pri:0, instance:testNG.testcases.CreatingNewRole@7c137fd5]" started-at="2024-02-15T16:35:22 IST" name="adminlogin" finished-at="2024-02-15T16:35:22 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method signature="CreatingRole(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG.testcases.CreatingNewRole@7c137fd5]" started-at="2024-02-15T16:35:22 IST" name="CreatingRole" finished-at="2024-02-15T16:35:24 IST" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chandu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingRole -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:testNG.testcases.CreatingNewRole@7c137fd5]" started-at="2024-02-15T16:35:24 IST" name="adminlogout" finished-at="2024-02-15T16:35:24 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+      </class> <!-- testNG.testcases.CreatingNewRole -->
+    </test> <!-- Creating new role -->
+    <test started-at="2024-02-15T16:35:24 IST" name="Deleting role" finished-at="2024-02-15T16:35:25 IST" duration-ms="970">
+      <class name="testNG.testcases.DeletingExistingRole">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testNG.testcases.DeletingExistingRole@3e08ff24]" started-at="2024-02-15T16:35:03 IST" name="launchApp" finished-at="2024-02-15T16:35:07 IST" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="adminlogin()[pri:0, instance:testNG.testcases.DeletingExistingRole@3e08ff24]" started-at="2024-02-15T16:35:24 IST" name="adminlogin" finished-at="2024-02-15T16:35:24 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method signature="DeletingRole()[pri:0, instance:testNG.testcases.DeletingExistingRole@3e08ff24]" started-at="2024-02-15T16:35:24 IST" name="DeletingRole" finished-at="2024-02-15T16:35:25 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletingRole -->
+        <test-method is-config="true" signature="adminlogout()[pri:0, instance:testNG.testcases.DeletingExistingRole@3e08ff24]" started-at="2024-02-15T16:35:25 IST" name="adminlogout" finished-at="2024-02-15T16:35:25 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testNG.testcases.DeletingExistingRole@3e08ff24]" started-at="2024-02-15T16:35:25 IST" name="closeApp" finished-at="2024-02-15T16:35:26 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testNG.testcases.DeletingExistingRole -->
+    </test> <!-- Deleting role -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

@@ -1,0 +1,45 @@
+<suite name="TestNG Suite">
+<test name="admin login with valid data">
+		<parameter name="user" value="Admin"></parameter>
+		<parameter name="pass" value="Admin"></parameter>
+		<classes>
+			<class name="testNG.testcases.AdminLoginWithValidData"></class>
+		</classes>
+	</test> 
+  <test name ="admin login with invalid data">
+	  <parameter name="user" value="njsdkf"></parameter>
+	  <parameter name="pass" value="indup"></parameter>
+	  <classes>
+		  <class name="testNG.testcases.AdminLoginWithInvalidData"></class>
+	  </classes>
+  </test>
+  <test name ="Creating new branch">
+	  <parameter name="Bname" value="HydBranch"></parameter>
+	   <parameter name="Add" value="ameerpet"></parameter>
+	   <parameter name="code" value="89076"></parameter>
+	    <parameter name="country" value="INDIA"></parameter>
+	     <parameter name="state" value="Andhra Pradesh"></parameter>
+	      <parameter name="city" value="Select"></parameter>
+	  <classes>
+		  <class name ="testNG.testcases.CreatingNewBranch"></class>
+	  </classes>
+  </test>
+  <test name="Deleting existing branch">
+	  <classes>
+		  <class name="testNG.testcases.DeletingExistingBranch"></class>
+	  </classes>
+  </test>
+  <test name="Creating new role">
+	  <parameter name="RoleName" value="chandu"></parameter>
+	  <parameter name="RoleDesk" value="Dancer"></parameter>
+	  <parameter name="Role" value="E"></parameter>
+	  <classes>
+		  <class name="testNG.testcases.CreatingNewRole"></class>
+	  </classes>
+  </test>
+  <test name="Deleting role">
+	  <classes>
+		  <class name="testNG.testcases.DeletingExistingRole"></class>
+	  </classes>
+  </test>
+</suite>
